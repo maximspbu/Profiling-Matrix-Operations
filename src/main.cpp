@@ -8,7 +8,9 @@ int main(){
 
     Matrix matrix(rowSize, columnSize);
     
-    int64_t b = matrix.RowSumData();
+    int64_t result;
+    result = matrix.RowSumData();
+    //result = matrix.ColumnSumData();
 
     return 0;
 }
